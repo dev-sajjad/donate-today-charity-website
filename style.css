@@ -1,0 +1,286 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Work+Sans:wght@300;400;500;700;900&display=swap');
+
+/***** Default Values *****/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/***** Typography *****/
+
+
+h1 {
+   color: white;
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   font-size: 45px;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+}
+
+h2 {
+   color: #000;
+   font-family: 'Work Sans', sans-serif;
+   font-size: 35px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
+h3 {
+   color: #000;
+   font-family: 'Work Sans', sans-serif;
+   font-size: 20px;
+   font-family: 500;
+   padding: 10px 5px;
+}
+p {
+   color: black;
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding-top: 20px;
+}
+
+/***** Button styles *****/
+
+.link-btn {
+   color: #fff;
+   font-family: 'Work sans', sans-serif;
+   font-size: 15px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   text-decoration: none;
+   text-transform: uppercase;
+   background-color: tomato;
+   padding: 10px 25px;
+   border-radius: 5px;
+}
+
+.link-btn:hover {
+   color: tomato;
+   background-color: #fff;
+   border: 1px solid tomato;
+   transition: background-color .25s ease-in-out;
+}
+
+/***** Header Area *****/
+
+.header-area {
+   height: 500px;
+   background-image: url("images/donation13.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+}
+.header-area p {
+   color: whitesmoke;
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: 30px 0;
+}
+
+.header-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/***** Donate Area *****/
+
+.donate-area {
+   height: 400px;
+   text-align: center;
+   padding: 50px 100px;
+   overflow: hidden;
+}
+.select-amount {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0;
+   overflow: hidden;
+}
+
+.select-amount .btn {
+   color: #424242;
+   font-size: 25px;
+   font-weight: 500;
+   background-color: #f0f0f0;
+   margin-left: 15px;
+   padding: 40px 20px;
+   border-radius: 5px;
+   border: none;
+}
+
+.select-amount .selected, .btn:hover {
+   color: tomato;
+   background-color: #f7c6c6;
+   border: 2px solid tomato;
+}
+
+.input-amount input[type=text] {
+   width: 70%;
+   border: none;
+   outline: none;
+   text-align: center;
+   border-bottom: 1px solid grey;
+   padding: 12px 20px;
+   margin-bottom: 20px;
+}
+
+/***** Plan Area *****/
+
+.plan-area {
+   height: 500px;
+   text-align: center;
+   padding: 50px 100px;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+.plan-catagory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.col-1 {
+   flex: 1;
+   text-align: left;
+   background-color: #e1f5ee;
+   padding: 30px 10px;
+   margin-right: 5px;
+}
+.col-2 {
+   flex: 1;
+   text-align: left;
+   background-color: #f5e1e1;
+   padding: 30px 10px;
+   margin: 0 5px;
+}
+.col-3 {
+   flex: 1;
+   text-align: left;
+   background-color: #f5f2e1;
+   padding: 30px 10px;
+   margin-left: 5px;
+}
+
+/***** Camp Area *****/
+
+.camp-area {
+   height: 500px;
+   text-align: center;
+   background-color: #f7e4e4;
+   padding: 50px 100px;
+   overflow: hidden;
+}
+.camp-catagory {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0;
+}
+.col {
+   flex: 1;
+   width: 30%;
+   margin-right: 3%;
+   text-align: center;
+   background-color: #fff;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+.col p {
+   line-height: 20px;
+   padding: 0 10px;
+}
+.col img {
+   width: 100%;
+}   
+   
+.col a {
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 700;
+   color: tomato;
+   text-transform: uppercase;
+   padding: 15px 0;
+}
+
+/***** Subscribe Area *****/
+
+.subscribe-area {
+   height: 300px;
+   text-align: center;
+   padding: 50px 100px;
+   overflow: hidden;
+}
+.subscribe-area p {
+   width: 70%;
+   margin: 0 auto;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 25px 0;
+}
+.subscribe {
+   width:80%;
+   background-color: #fff2c9;
+   margin: 0 auto;
+   padding: 40px 20px;
+}
+form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+form input[type=email] {
+   color: #636361;
+   background-color: #e3e1dc;
+   padding: 10px 20px;
+   outline: none;
+   border: none;
+   border-radius: none;
+   border-radius: 5px 0 0 5px;
+   
+}
+form button {
+   color: #fff;
+   padding: 10px 20px;
+   background-color: tomato;
+   border: none;
+   outline: none;
+   border-radius: 0 5px 5px 0;
+}
+form button:hover {
+   color: tomato;
+   background-color: #fff;
+}
+
+/***** Footer Area *****/
+
+footer {
+   background-color: #000;
+   padding: 15px 0;
+   text-align: center;
+}
+footer h2 {
+   color: tomato;
+   font-family: 'Brush Script MT', sans-serif;
+   font-weight: 700;
+}
+footer p {
+   color: #fff;
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   font-weight: 300;
+   letter-spacing: 1px;
+}
